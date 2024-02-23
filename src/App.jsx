@@ -18,7 +18,7 @@ function App() {
       <MessagesProvider>
       <Router>
         <Routes>
-          <Route path="/" element={<Rotes />} />
+          <Route path="/" element={<ContactPage />} />
           <Route path="/contacts" element={<ContactPage />} />
           <Route path="/messages/:selectedUserId" element={<MessagePage />} />
         </Routes>
